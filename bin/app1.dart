@@ -1,5 +1,7 @@
-import 'package:app1/app1.dart' as app1;
+void main() {
+  var prenoms = ['mahdi', 'nono', 'mostafa'];
+  prenoms.add('anes');
 
-void main(List<String> arguments) {
-  print('Hello world: ${app1.calculate()}!');
+  print(prenoms);
+  print(prenoms.length);
 }
